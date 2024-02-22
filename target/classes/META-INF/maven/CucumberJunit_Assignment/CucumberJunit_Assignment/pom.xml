@@ -17,7 +17,7 @@
            <configuration>
      <includes>
 <!-- the java file name is added here in the surefire configurartion -->
-     <exclude>**/*Login_runner.java</exclude>
+     <exclude>**/*GovLogin_Runner.java</exclude>
      </includes>
      </configuration>
         </plugin>

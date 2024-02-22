@@ -67,8 +67,6 @@ public class GovPortal_steps {
 
 	@Then("account created successfully")
 	public void account_created_successfully() throws InterruptedException {
-		Alert al=driver.switchTo().alert();
-     	al.accept();
 		driver.close();
 	  
 	}
